@@ -1,0 +1,61 @@
+alter table TransactionDetail add BdDiscounted bit;
+
+alter table Customer add BonusPoint varchar(50);
+
+USE [MPLOC01_b4SAP]
+GO
+/****** Object:  StoredProcedure [dbo].[InsertTransactionDetail]    Script Date: 5/23/2024 2:36:14 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		<Author,,Name>
+-- ALTER date: <ALTER Date,,>
+-- Description:	<Description,,>
+-- =============================================
+ALTER procEDURE [dbo].[InsertTransactionDetail]
+	@TransactionId varchar(20),
+	@ProductId int,
+	@Qty int,
+	@UnitPrice int,
+	@DiscountRate float,
+	@TaxRate float,
+	@TotalAmount int,
+	@IsDeleted bit,
+	@IsDeductedBy float,
+	@BdDiscounted bit
+AS
+BEGIN
+	INSERT INTo[TransactionDetail]
+(
+	[TransactionDetail].[TransactionId],
+	[TransactionDetail].[ProductId],
+	[TransactionDetail].[Qty],
+	[TransactionDetail].[UnitPrice],
+	[TransactionDetail].[DiscountRate],
+	[TransactionDetail].[TaxRate],
+	[TransactionDetail].[TotalAmount],
+	[TransactionDetail].[IsDeleted],
+	[TransactionDetail].[IsDeductedBy],
+	[TransactionDetail].[BdDiscounted]
+)	
+VALUES
+(
+	@TransactionId,
+	@ProductId,
+	@Qty,
+	@UnitPrice,
+	@DiscountRate,
+	@TaxRate,
+	@TotalAmount,
+	@IsDeleted,
+	@IsDeductedBy,
+	@BdDiscounted
+	
+	
+
+);
+SELECT SCOPE_IDENTITY();
+END
+

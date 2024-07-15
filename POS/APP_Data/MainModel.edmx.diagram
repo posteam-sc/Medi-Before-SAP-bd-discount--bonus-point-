@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="312b28d7303e406d890078b688464833" Name="Diagram1">
+        <EntityTypeShape EntityType="MainModel.AttachGiftSystemForTransaction" Width="1.5" PointX="8.25" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.Authorize" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.Brand" Width="1.5" PointX="0.75" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.City" Width="1.5" PointX="1.5" PointY="43.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.ConsignmentCounter" Width="1.5" PointX="3.75" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.Counter" Width="1.5" PointX="3.75" PointY="37" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.Currency" Width="1.5" PointX="3.75" PointY="40.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.Customer" Width="1.5" PointX="3.75" PointY="43.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.CustomerType" Width="1.5" PointX="1.5" PointY="45.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.DailyRecord" Width="1.5" PointX="6" PointY="36.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.DeleteLog" Width="1.5" PointX="13.5" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.ExchangeRateForTransaction" Width="1.5" PointX="8.25" PointY="43.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.GiftCard" Width="1.5" PointX="3.75" PointY="51" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.GiftCardInTransaction" Width="1.5" PointX="8.25" PointY="51.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.GiftSystem" Width="1.5" PointX="3" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.Loc_CustomerPoint" Width="1.5" PointX="6" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.Loc_PointRedeemHistory" Width="1.5" PointX="9" PointY="47.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.MainPurchase" Width="1.5" PointX="6" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.NoveltySystem" Width="1.5" PointX="3" PointY="25.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.PaymentMethod" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.PaymentType" Width="1.5" PointX="3.75" PointY="54.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.PointDeductionPercentage_History" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.Product" Width="1.5" PointX="6" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.ProductCategory" Width="1.5" PointX="3.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.ProductInfo" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.ProductInNovelty" Width="1.5" PointX="5.25" PointY="25.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.ProductPriceChange" Width="1.5" PointX="8.25" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.ProductSubCategory" Width="1.5" PointX="3.75" PointY="28.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.PurchaseDetail" Width="1.5" PointX="8.25" PointY="20.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.RoleManagement" Width="1.5" PointX="3.75" PointY="65.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.Setting" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.Shop" Width="1.5" PointX="3.75" PointY="61.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.SPDetail" Width="1.5" PointX="11.25" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.Supplier" Width="1.5" PointX="3.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.Tax" Width="1.5" PointX="3.75" PointY="31.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.Transaction" Width="1.5" PointX="6" PointY="44.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.TransactionDetail" Width="1.5" PointX="11.25" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.TransactionDetail_BK" Width="1.5" PointX="11.25" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.TransactionPaymentDetail" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.Unit" Width="1.5" PointX="3.75" PointY="34.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.UsePrePaidDebt" Width="1.5" PointX="11.25" PointY="47.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.User" Width="1.5" PointX="3.75" PointY="57.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.UserRole" Width="1.5" PointX="1.5" PointY="57.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.VIPMemberRule" Width="1.5" PointX="1.5" PointY="48.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainModel.WrapperItem" Width="1.5" PointX="8.25" PointY="37.125" IsExpanded="true" />
+        <AssociationConnector Association="MainModel.FK_AttachGiftForTransaction_GiftSystem" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_AttachGiftForTransaction_Transaction" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_GiftSystem_Brand" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_NoveltySystem_Brand" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_Product_Brand" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_Customer_City" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_Shop_City" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_Product_ConsignmentCounter" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_DailyRecord_Counter" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_DeleteLog_Counter" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_Loc_PointRedeemHistory_Counter" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_Transaction_Counter" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_UsePrePaidDebt_Counter" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_ExchangeRateForTransaction_Currency" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_Transaction_Currency" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK__Customer__RuleId__2A164134" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_Customer_CustomerType" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_GiftCard_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_Loc_CustomerPoint_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_Loc_PointRedeemHistory_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_Transaction_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_DeleteLog_Transaction" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_DeleteLog_TransactionDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_DeleteLog_User" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_ExchangeRateForTransaction_Transaction" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_GiftCardInCustomer_GiftCard" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_Transaction_GiftCard" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_GiftCardInCustomer_GiftCardInCustomer" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_GiftSystem_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_GiftSystem_Product1" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_GiftSystem_ProductCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_GiftSystem_ProductSubCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_Loc_PointRedeemHistory_User" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_MainPurchase_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_PurchaseDetail_MainPurchase" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_ProductInNovelty_NoveltySystem" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_Transaction_PaymentType" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_Product_ProductCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_Product_ProductType" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_Product_Tax" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_Product_Unit" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_ProductInNovelty_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_ProductPriceChange_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_PurchaseDetail_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_SPDetail_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_SPDetail_Product1" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_TransactionDetail_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_TransactionDetail_Product_BK" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_WrapperItem_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_WrapperItem_Product1" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_ProductSubCategory_ProductCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_ProductPriceChange_User" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_RoleManagement_UserRole" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_SPDetail_TransactionDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_Transaction_Transaction" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_Transaction_User" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_TransactionDetail_Transaction" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_TransactionDetail_Transaction_BK" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_UsePrePaidDebt_Transaction" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_UsePrePaidDebt_Transaction1" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_UsePrePaidDebt_User" ManuallyRouted="false" />
+        <AssociationConnector Association="MainModel.FK_User_UserRole" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
